@@ -25,7 +25,7 @@ jobs:
           context: .
           push: true
           # MUITO IMPORTANTE: Substitua '10-4' pelo seu usuário real do Docker Hub se necessário
-          tags: 10-4/10.3-fastapi-e-docker:latest
+          tags: guilhermediegosanches/10.3-fastapi-e-docker:latest
 
       - name: 4. Avisar o Azure (Webhook)
         run: |
